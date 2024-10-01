@@ -1,0 +1,174 @@
+/* CSS Styles */
+
+.navbar-brand:hover {
+    color: greenyellow !important;
+}
+
+.navbar-brand.active {
+    color: greenyellow !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: greenyellow !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: greenyellow !important;
+}   
+
+body {
+    padding-bottom: 140px; /* This should match the footer's height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden; 
+    max-width: 100%; 
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding-bottom: 120px;
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .content-wrapper {
+        padding: 5%;
+        margin: 0 auto;
+        max-width: 100%; 
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-md-end {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .d-md-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .date {
+        text-align: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.1em;
+    }
+
+    .content-wrapper {
+        padding: 5%;
+        max-width: 100%; 
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-section img {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+    }
+
+    .profile-section .text-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .custom-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .custom-flex > div, .custom-flex > p, .custom-flex > span {
+        flex: 1;
+        text-align: center;  
+    }
+    
+    .text-md-end {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .d-flex img {
+        margin: 0 auto;
+    }
+    .d-flex div {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .custom-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-md-end {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 769px) {
+    .profile-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .profile-section img {
+        margin-right: 20px;
+        width: 220px; 
+        height: auto;
+    }
+
+    .profile-section .text-section {
+        max-width: 600px;
+    }
+}
+
+.profile-section .text-section p {
+    font-size: 14px;
+    text-align: left;
+}
+
+}  
+
+  h1.title {
+    display: none;
+  }
+
+
+
